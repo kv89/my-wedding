@@ -1394,11 +1394,11 @@ strong {
           flex-grow: 0;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  font-size: 1rem;
+  font-size: 1.3rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  line-height: 1.5;
+  line-height: 2.5;
   padding: 0.5rem 0.75rem;
 }
 
@@ -1490,7 +1490,7 @@ a.nav-item.is-tab.is-active {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   max-width: 100%;
-  overflow: auto;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1192px) {

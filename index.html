@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Bec and Scott tie the knot.">
+<meta name="description" content="Pinky and Vishal tie the knot.">
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#ffffff">
 <title>Pinky and Vishal tie the knot</title>
@@ -86,12 +86,12 @@ section {
 	animation-duration:2s;
 }
 .heartbeat {
-	-webkit-animation: heart-beats 3s infinite;
-	animation: heart-beats 3s infinite;
+	-webkit-animation: heart-beats 2s infinite;
+	animation: heart-beats 2s infinite;
 }
 .heartbeathover:hover {
-	-webkit-animation: heart-beats 3s 1;
-	animation: heart-beats 3s 1;
+	-webkit-animation: heart-beats 2s 1;
+	animation: heart-beats 2s 1;
 }
 @-webkit-keyframes bounce {
 	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	40% {-webkit-transform: translateY(-30px);}
@@ -133,6 +133,81 @@ section {
 		background-attachment: fixed !important;
 	}
 }
+
+    .awesome {
+      
+      font-family: futura;
+      font-style: italic;
+      
+      width:100%;
+      
+      margin: 0 auto;
+      text-align: center;
+      
+      color:#313131;
+      font-size:45px;
+      font-weight: bold;
+      position: absolute;
+      -webkit-animation:colorchange 20s infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: red;
+      }
+      
+      10% {
+        
+        color: yellow;
+      }
+      
+      20% {
+        
+        color: white;
+      }
+      
+      30% {
+        
+        color: pink;
+      }
+      
+      40% {
+        
+        color: orange;
+      }
+      
+      50% {
+        
+        color: #3BB9FF;
+      }
+      
+      60% {
+        
+        color: #93FFE8;
+      }
+      
+      70% {
+        
+        color: #4CC417;
+      }
+      80% {
+     
+        color: #5FFB17;
+      }
+      
+      90% {
+     
+        color: #FFDB58;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
 </style>
 <script>
 $(document).ready(function() {
@@ -231,7 +306,7 @@ $(document).ready(function() {
 });
 </script>
 </head>
-<body>
+<body style="overflow-y: hidden;">
 	<section class="hero is-dark" style="position: fixed; top: 0; width: 100%; z-index: 20; background: none;">
 		<!-- Hero header: will stick at the top -->
 		<div class="hero-head">
@@ -239,7 +314,7 @@ $(document).ready(function() {
 				<div class="container">
 					<div class="nav-left" style="overflow: hidden;">
 						<a href="#pnv" class="nav-item">
-						<span style="font-family: 'Satisfy', cursive; font-size: 2.4rem; color: #fff; margin-top: 10px;">
+						<span style="font-family: 'Satisfy', cursive; font-size: 3.5rem; color: #fff; margin-top: 10px;">
 						p&amp;v</span>
 						</a>
 					</div>
@@ -249,22 +324,22 @@ $(document).ready(function() {
 						<span></span>
 					</span>
 					<div class="nav-right nav-menu">
-						<a href="#details" class="nav-item">
+						<a href="#details" class="nav-item" style="color: yellow;">
 						Details
 						</a>
-						<a href="#location" class="nav-item">
+						<a href="#location" class="nav-item" style="color: yellow;">
 						Location
 						</a>
-						<a href="#celebrate" class="nav-item">
+						<a href="#celebrate" class="nav-item" style="color: yellow;">
 						Celebrate
 						</a>
-						<a href="#gallery" class="nav-item">
+						<a href="#gallery" class="nav-item" style="color: yellow;">
 						Gallery
 						</a>
-						<a href="#accomodation" class="nav-item">
+						<a href="#accomodation" class="nav-item" style="color: yellow;">
 						Accomodation
 						</a>
-						<a href="#rsvp" class="nav-item">
+						<a href="#rsvp" class="nav-item" style="color: yellow;">
 						RSVP
 						</a>
 					</div>
@@ -274,12 +349,12 @@ $(document).ready(function() {
 	</section>
 	<section id="pnv" class="hero is-dark is-fullheight" style="position: relative; background-image: url(images/vnp1.jpg); background-repeat: no-repeat; background-position: center top; background-size: cover; background-attachment: scroll;">
 		<!-- Hero content: will be in the middle -->
-		<div class="hero-body">
+		<div class="hero-body" style="padding-top: 32%;">
 			<div class="container has-text-centered">
-				<h1 class="title is-1" style="font-family: 'Satisfy', cursive; font-size: 5rem;">
+				<h1 class="title is-1" style="font-family: 'Satisfy', cursive; font-size: 6rem;">
 					pinky &amp; vishal
 				</h1>
-				<h1 class="subtitle is-3" style="color: red; font-family: 'Satisfy', cursive; font-size: 3.33rem;">
+				<h1 class="subtitle is-3 " style="color: #f0f8ff; font-family: 'Satisfy', cursive; font-size: 4rem;">
 					tie the knot
 				</h1>
 			</div>
@@ -295,31 +370,31 @@ $(document).ready(function() {
 		<div id="particles" style="position: absolute; width: 100%; height: 100%; z-index: 0; max-height: 100vh;"></div>
 		<div class="hero-body">
 			<div class="container has-text-centered">
-				<h1 class="title is-1" style="font-family: 'Satisfy', cursive; font-size: 5rem;">
+				<h1 class="title is-1" style="font-family: 'Satisfy', cursive; font-size: 5.5rem;">
 					our big day
 				</h1>
 				<div class="columns is-centered">
-					<div class="column is-5 is-4-desktop">
+					<div class="column is-5 is-4-desktop" style="width: 50%;">
 						<br>
 						<span class="icon is-huge">
 							<svg class="fa icon-clock-o"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-clock-o"></use></svg>
 						</span>
 						<br><br>
-						<h2 class="subtitle is-3" style="font-family: 'Satisfy', cursive; font-size: 3.33rem;">
+						<h2 class="subtitle is-2" style="font-family: 'Satisfy', cursive; font-size: 5rem;">
 							when
 						</h2>
-						<p class="subtitle is-5">18th April 2018<br>Ceremony begins at 8:00pm<br><span class="countdown" style="display: none;"></span></p>
+						<p class="subtitle is-3">18th April 2018<br>Ceremony begins at 8:00pm<br><span class="countdown" style="display: none;"></span></p>
 					</div>
-					<div class="column is-5 is-4-desktop">
+					<div class="column is-5 is-4-desktop"  style="width: 50%;">
 						<br>
 						<span class="icon is-huge">
 							<svg class="fa icon-map-marker"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-map-marker"></use></svg>
 						</span>
 						<br><br>
-						<h2 class="subtitle is-3" style="font-family: 'Satisfy', cursive; font-size: 3.33rem;">
+						<h2 class="subtitle is-2" style="font-family: 'Satisfy', cursive; font-size: 5rem;">
 							where
 						</h2>
-						<p class="subtitle is-5">Gidda Pahar<br>Hill Cart Road, Kurseong<br>Darjeeling, West Bengal, India</p>
+						<p class="subtitle is-3">Gidda Pahar<br>Hill Cart Road, Kurseong<br>Darjeeling, West Bengal, India</p>
 					</div>
 				</div>
 			</div>
@@ -335,57 +410,61 @@ $(document).ready(function() {
 				<h1 class="title is-1" style="font-family: 'Satisfy', cursive; font-size: 5rem;">
 					celebrate with us
 				</h1>
-				<div class="columns is-centered">
-					<div class="column is-5 is-4-desktop">
+				<div class="is-centered">
+					<div class="column is-5 is-4-desktop" style="width: 100%;">
 						<br>
 						<span class="icon heartbeat is-huge">
-							<!-- <svg class="fa icon-moon-o"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-moon-o"></use></svg> -->
-							
-							<svg class="fa icon-food-o"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-food-o"></use></svg>
+							<svg class="fa icon-heart-o"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-heart-o"></use></svg>
 						</span>
-						<br><br>
+						<br/><br/>
 						<h4 class="subtitle is-3" style="font-family: 'Satisfy', cursive; font-size: 3.33rem;">
-							the wedding
+							the wedding<br/>
+							<small style="font-size: xx-large;">@</small> darjeeling
 						</h4>
-						<p class="subtitle is-5"><a href="http://www.theepicurean.com.au/" target="_blank"><u>The wedding </u></a> ceremony, a beautiful and joyous moment in our life, is going to be celebrated in the arms of wonderful nature of <u>Darjeeling</u>. If you'd like to join us, let us know 
-							<a href="mailto:rsvp@becandscotttietheknot.com?subject=Wedding RSVP"><u>when you RSVP</u></a>.</p>
+						<p class="subtitle is-5">
+							<a href="http://www.theepicurean.com.au/" target="_blank">
+								<b><u>The Wedding</u></b></a> ceremony, a beautiful and joyous moment in our life, is going to be celebrated in the arms of wonderful nature of <b><u>Darjeeling</u></b>. Please let us know your presence when you <a href="#rsvp"><b><u>RSVP</u></b></a>.
+						</p>
 					</div>
-					<div class="column is-5 is-4-desktop">
+					<br/>
+					<div class="column is-5 is-4-desktop"  style="width: 100%;">
 						<br>
 						<span class="icon heartbeat is-huge">
 							<svg class="fa icon-heart-o"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-heart-o"></use></svg>
 						</span>
 						<br><br>
 						<h4 class="subtitle is-3" style="font-family: 'Satisfy', cursive; font-size: 3.33rem;">
-							wedding reception in darjeeling
+							wedding reception<br> 
+							<small style="font-size: xx-large;">@</small> darjeeling
 						</h4>
-						<p class="subtitle is-5">On next day, wedding reception will be held at the same place. Lunch shall be served with the speciality food of Kurseong. </p>
+						<p class="subtitle is-5"><b><u>Wedding Reception</u></b> will be held at the same venue the following day. Lunch shall be served with the speciality food of Kurseong. </p>
 					</div>
-					<div class="column is-5 is-4-desktop">
+					<div class="column is-5 is-4-desktop"  style="width: 100%;">
 						<br>
 						<span class="icon heartbeat is-huge">
 							<svg class="fa icon-heart-o"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-heart-o"></use></svg>
 						</span>
 						<br><br>
 						<h4 class="subtitle is-3" style="font-family: 'Satisfy', cursive; font-size: 3.33rem;">
-							wedding reception in pune
+							wedding reception <br>
+							<small style="font-size: xx-large;">@</small> pune
 						</h4>
-						<p class="subtitle is-5">On <u>Sun 29th April, 2018</u>, 2nd wedding reception will be organized in Pune. For those who could not join us on our wedding, can celebrate with us there.</p>
+						<p class="subtitle is-5">On <small><b><u>Sun 29th April, 2018</u></b></small>, wedding reception will be organized in <b><u>Pune</u></b>. For those who could not join us on our wedding, can celebrate with us there.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="hero is-fullheight" id="gallery" style="background: none;"></section>
+	<section class="hero is-fullheight" id="gallery" style="background: none; width: 100%;"></section>
 	<section class="hero is-black is-bold is-fullheight" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;">
 		<div class="slider-container">
 			<div class="slider">
-				<div class="slider__item" style="height: 100vh; background: url(images/vnp1.jpg) no-repeat center center; background-size: cover;"></div>
-				<div class="slider__item" style="height: 100vh; background: url(images/1.jpg) no-repeat center center; background-size: cover;"></div>
-				<div class="slider__item" style="height: 100vh; background: url(images/2.jpg) no-repeat center center; background-size: cover; "></div>
+				<div class="slider__item" style="height: 100vh; background: url(images/s1.png) no-repeat center center; background-size: cover;"></div>
+				<div class="slider__item" style="height: 100vh; background: url(images/s2.png) no-repeat center center; background-size: cover;"></div>
+				<div class="slider__item" style="height: 100vh; background: url(images/s3.png) no-repeat center center; background-size: cover; "></div>
 				<!-- <div class="slider__item" style="height: 100vh; background: url(images/3.jpg) no-repeat center left; background-size: auto;"></div> -->
-				<div class="slider__item" style="height: 100vh; background: url(images/4.jpg) no-repeat center center; background-size: cover;"></div>
-				<div class="slider__item" style="height: 100vh; background: url(images/5.jpg) no-repeat center center; background-size: cover;"></div>
+				<div class="slider__item" style="height: 100vh; background: url(images/s4.png) no-repeat center center; background-size: cover;"></div>
+				<div class="slider__item" style="height: 100vh; background: url(images/s5.png) no-repeat center center; background-size: cover;"></div>
 			</div>
 			<div class="slider__switch slider__switch--prev" data-ikslider-dir="prev">
 				<span>
@@ -412,7 +491,8 @@ $(document).ready(function() {
 				<br>
 				<div class="columns is-centered">
 					<div class="column is-10 is-8-desktop">
-						<p class="subtitle is-5">Kurseong is a hilly town in Darjeeling. Surrounded with most beautiful nature. <br/>It is also called as Land of White Orchids. <br/>Suitable arrangements will be made in the town for the guests. We would love to see you celebrate with us the special day of our life. Just call <a href="tel:+91 968 628 9687"><u>+91 968 628 9687</u></a> or <a href="tel:+91 829 648 6383"><u>+91 829 648 6383</u></a> in case any help is required. <b><u>Make sure to RSVP your presence in advance.</u></b> </p>
+						<p class="subtitle is-5">Kurseong is a hilly town in Darjeeling. Surrounded with most beautiful nature. <br/>It is also called as Land of White Orchids. <br/>Suitable arrangements will be made in the town for the guests. We would love to see you celebrate with us the special day of our life. Just call <a href="tel:+91 968 628 9687"><u>+91 968 628 9687</u></a> or <a href="tel:+91 829 648 6383"><u>+91 829 648 6383</u></a> in case any help is required. 
+							<a href="#rsvp"><b><u>Make sure to RSVP your presence in advance.</u></b></a></p>
 					</div>
 				</div>
 			</div>
@@ -421,18 +501,18 @@ $(document).ready(function() {
 	<section class="hero is-info is-bold is-fullheight" id="rsvp" style="position: relative;">
 		<div class="hero-body">
 			<div class="container has-text-centered">
-				<h1 class="title is-1" style="font-family: 'Satisfy', cursive; font-size: 5rem;">
+				<h1 class="title is-1" style="font-family: 'Satisfy', cursive; font-size: 5rem; margin-bottom: 0%; margin-top: 1%;">
 					RSVP
 				</h1>
 				<br>
 				<div class="columns is-centered">
 					<div class="column is-10 is-8-desktop">
 						<p class="subtitle is-5">Our time has finally come, let us know if you will be able to join our celebration!</p>
-						<p><a href="mailto:rsvp@becandscotttietheknot.com?subject=Wedding RSVP" class="button heartbeathover is-large is-danger">Let us know</a></p>
-						<br><br>
-						<span class="icon is-medium" style="opacity: 0.2">
-							<svg class="fa icon-diamond"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-diamond"></use></svg>
-						</span>
+						<!-- rsvp form  -->
+						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScNT4I-3uo2seVzWYRaFOTBV9fRd3IjbKtPUU5bcSzOnk5iWA/viewform?embedded=true" width="700" height="470" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+						
+						<!-- rsvp form end -->
+						<p><div class="heartbeathover is-large is-danger">Let us know</div></p>
 					</div>
 				</div>
 			</div>
