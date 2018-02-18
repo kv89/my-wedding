@@ -1490,7 +1490,7 @@ a.nav-item.is-tab.is-active {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   max-width: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 @media screen and (min-width: 1192px) {
